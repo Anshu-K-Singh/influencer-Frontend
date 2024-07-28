@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Influencer Listing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom hover effect for influencer cards */
+        .influencer-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-blue-600 text-white py-4 shadow-lg">
+        <div class="container mx-auto px-6">
+            <h1 class="text-2xl font-semibold">Influencer Marketplace</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 mt-6">
+        <h2 class="text-3xl font-semibold mb-4">Influencer Listings</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Influencer Card -->
+            <div class="bg-white p-4 rounded-lg shadow-lg transition-transform duration-300 influencer-card">
+                <img src="https://via.placeholder.com/150" alt="Influencer" class="w-full rounded-md">
+                <h3 class="text-xl font-bold mt-4">Influencer Name 1</h3>
+                <p class="text-gray-600">Instagram: 50k followers</p>
+                <p class="text-gray-600">Facebook: 30k followers</p>
+                <p class="text-gray-600">YouTube: 40k subscribers</p>
+            </div>
+            <!-- Repeat similar cards for more influencers -->
+            <div class="bg-white p-4 rounded-lg shadow-lg transition-transform duration-300 influencer-card">
+                <img src="https://via.placeholder.com/150" alt="Influencer" class="w-full rounded-md">
+                <h3 class="text-xl font-bold mt-4">Influencer Name 2</h3>
+                <p class="text-gray-600">Instagram: 70k followers</p>
+                <p class="text-gray-600">Facebook: 20k followers</p>
+                <p class="text-gray-600">YouTube: 60k subscribers</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg transition-transform duration-300 influencer-card">
+                <img src="https://via.placeholder.com/150" alt="Influencer" class="w-full rounded-md">
+                <h3 class="text-xl font-bold mt-4">Influencer Name 3</h3>
+                <p class="text-gray-600">Instagram: 80k followers</p>
+                <p class="text-gray-600">Facebook: 10k followers</p>
+                <p class="text-gray-600">YouTube: 90k subscribers</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg transition-transform duration-300 influencer-card">
+                <img src="https://via.placeholder.com/150" alt="Influencer" class="w-full rounded-md">
+                <h3 class="text-xl font-bold mt-4">Influencer Name 4</h3>
+                <p class="text-gray-600">Instagram: 100k followers</p>
+                <p class="text-gray-600">Facebook: 50k followers</p>
+                <p class="text-gray-600">YouTube: 120k subscribers</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg transition-transform duration-300 influencer-card">
+                <img src="https://via.placeholder.com/150" alt="Influencer" class="w-full rounded-md">
+                <h3 class="text-xl font-bold mt-4">Influencer Name 5</h3>
+                <p class="text-gray-600">Instagram: 40k followers</p>
+                <p class="text-gray-600">Facebook: 20k followers</p>
+                <p class="text-gray-600">YouTube: 70k subscribers</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
